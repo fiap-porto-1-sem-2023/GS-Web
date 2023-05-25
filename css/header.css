@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8B4513;
+  }
+
+  .logo-branca{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60vw;
+    height: 20vh; 
+    text-align: center;
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding: 6vh 0;
+  }
+  
+  .header img {
+    width: 30%;
+    max-width: 100%;
+    display: block;
+  }
+  
+  .header a:hover {
+    background-color: #fff;
+    color: #000000;
+  }
