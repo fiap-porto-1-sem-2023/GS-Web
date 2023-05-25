@@ -27,26 +27,57 @@
               <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
             </div>
             <div>
-              <label for="idSenha">Senha: </label>
-              <input type="password" name="senha" id="idSenha" placeholder="   Digite sua senha"/>
-              <small id="idErrorSenha" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              <label for="idTelefone">Telefone: </label>
+              <input type="text" name="Telefone" id="idTelefone" placeholder="   Digite seu telefone"/>
+              <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
             </div>
             <div>
-              <label for="idConfirmSenha">Confirme sua senha: </label>
-              <input type="password" name="confirmPassword" id="idConfirmSenha" placeholder="   Confirme sua senha"/>
-              <small id="idErrorConfirmSenha" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              <label>Estado:</label>
+              <select id="estados" name="estados">
+                <option value="">Selecione um Estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+              </select>
             </div>
             <div>
-              <p><a href="#">Não tem cadastro ainda?</a></p>
+              <label for="idAssunto">Assunto: </label>
+              <input type="text" name="Assunto" id="idAssunto" placeholder="   Digite o assunto"/>
+              <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
             </div>
-  
+            <div>
+            <label for="idMensagem">Mensagem:</label>
+            <textarea id="idMensagem" name="mensagem"></textarea>
+            <small id="idErrorMensagem" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+          </div> 
             <div class="div-buttons">
               <button type="submit" id="btnSubmit" class="btn-entrar">Entrar</button>
               <button type="reset" id="btnLimpar" class="btn-limpar">Limpar</button>
-            </div>
-  
-            <button type="click" id="btnDark" class="btn-dark">DarkMode</button>
-  
+            </div>  
           </fieldset>
         </form>
       </div>
