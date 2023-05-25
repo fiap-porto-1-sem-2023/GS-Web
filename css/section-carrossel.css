@@ -1,0 +1,9 @@
+body {
+    background-color: #F5F5DC;
+}
+.carousel img {
+    height: 70vh;
+}
+.carousel {
+    margin: 7vh 8%;
+}
