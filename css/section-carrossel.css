@@ -1,0 +1,10 @@
+body {
+    background-color: #F5F5DC;
+}
+.carousel img {
+    height: 70vh;
+}
+.carousel {
+    margin-top: 7vh;
+    max-width: 100%;
+}

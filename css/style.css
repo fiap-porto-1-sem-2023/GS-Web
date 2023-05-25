@@ -1,0 +1,17 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./section-carrossel.css");
+@import url("./conteudo.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+body {
+    background: #F5F5DC !important;
+}
+.main{
+    margin: 0 9%;
+}

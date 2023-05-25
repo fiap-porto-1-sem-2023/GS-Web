@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8B4513;
+    height: 12vh;
+    width: 100% ;
+  }
+
+.header img{
+    height: 60px;
+    width: 200px;
+    margin: 0 0 0 3vw;
+}
+  
+  .header nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60vw; 
+    text-align: center;
+   
+  }
+  
+  .header a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    height: 4vh;
+    color: #fff;
+  }
+  
+  .header a:hover {
+    background-color: #fff;
+    color: #000000;
+    border-radius: 10px;
+    height: 4.5vh;
+    width: 10vw;
+  }
