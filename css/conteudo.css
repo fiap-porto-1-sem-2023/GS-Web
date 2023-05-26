@@ -1,10 +1,12 @@
-.conteudo{
-
+.conteudo p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .conteudo h3{
     color: #4B0082;
+    font-family: 'Montserrat', sans-serif;
 }
+
 .txt {
     display: flex;
     gap: 3rem;
