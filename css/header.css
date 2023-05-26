@@ -9,9 +9,9 @@
   }
 
 .header img{
-    height: 60px;
-    width: 200px;
-    margin: 0 0 0 3vw;
+  width: 160px;
+  height: 70px;
+  margin-left: 3vw;
 }
   
   .header nav {
