@@ -4,7 +4,13 @@ body {
 .carousel img {
     height: 70vh;
 }
+.container-carrousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .carousel {
     margin-top: 7vh;
     max-width: 100%;
+    width: 70vw;
 }

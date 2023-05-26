@@ -11,7 +11,37 @@
 }
 body {
     background: #F5F5DC !important;
+    overflow-x: hidden;
 }
 .main{
     margin: 0 7%;
+}
+
+@media(max-width: 2560px){
+    .header{
+        height: 12vh;
+        justify-content: space-between;
+    }
+    .header img{
+        height: 11vh;
+        width: 13vw;
+        margin-left: 2vw;
+    }
+    .header nav{
+        padding-right: 5vw;
+    }
+    .header a{
+        font-size: 1.8rem;
+        padding-left: 6vw;
+    }
+    .txt{
+        margin-top: 4vh;
+    }
+    .descricao h3{
+        font-size: 3rem;
+        padding-top: 4vh;
+    }
+    .descricao p{
+        font-size: 1.7rem;
+    }
 }
