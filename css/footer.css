@@ -12,6 +12,9 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 1vh;
+    font-size: 1.3rem;
+    font-weight: 550;
+    color: #fff;
 }
 .footer img{
     margin-top: 1vh;
