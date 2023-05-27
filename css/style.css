@@ -294,3 +294,29 @@ body {
         width: 65vw;
     }
 }
+
+@media(max-width: 503px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 16vh;
+    }
+    .header img{
+        width: 20vw;
+        height: 8vh;
+    }
+    .header nav{
+        justify-content: space-around;
+        padding-bottom: 3vh;
+    }
+    .header a{
+        
+        font-size: 0.63rem;
+    }
+    .carousel button{
+        max-width: 17px;
+    }
+    .carousel img {
+        height: 35vh;
+    }
+}
