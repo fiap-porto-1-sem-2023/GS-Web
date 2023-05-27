@@ -177,7 +177,7 @@ body {
     
 }
 
-@media(max-width: 894px){
+@media(max-width: 900px){
     .header img{
         width: 15vw;
     }
@@ -195,12 +195,12 @@ body {
         font-size: 1.3rem;
     }
     .descricao p{
-        font-size: 0.96rem;
+        font-size: 0.9rem;
     }
-    .footer h4{
+    .carousel-inner h5{
+        font-size: 1.1rem;
+    }
+    .carousel-inner p{
         font-size: 0.8rem;
-    }
-    .carousel img {
-        height: 60vh;
     }
 }
