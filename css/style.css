@@ -176,3 +176,31 @@ body {
     }
     
 }
+
+@media(max-width: 894px){
+    .header img{
+        width: 15vw;
+    }
+    .header nav{
+        padding-right: 2.8vw;
+    }
+    .header a{
+        font-size: 0.9rem;
+    }
+    .txt img{
+        width: 34vw;
+        height: 100%;
+    }
+    .descricao h3{
+        font-size: 1.3rem;
+    }
+    .descricao p{
+        font-size: 0.96rem;
+    }
+    .footer h4{
+        font-size: 0.8rem;
+    }
+    .carousel img {
+        height: 60vh;
+    }
+}
