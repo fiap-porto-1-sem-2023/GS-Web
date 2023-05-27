@@ -145,3 +145,34 @@ body {
     }
     
 }
+
+@media(max-width: 1112px){
+    .header img{
+        height: 10.5vh;
+        width: 12vw;
+    }
+    .header nav{
+        padding-right: 3vw;
+    }
+    .header a{
+        font-size: 1.1rem;
+    }
+    .txt img{
+        width: 34vw;
+        height: 100%;
+    }
+    .descricao h3{
+        font-size: 1.3rem;
+    }
+    .descricao p{
+        font-size: 0.96rem;
+    }
+    .footer h4{
+        font-size: 1rem;
+    }
+    .footer img{
+        max-width: 100px; 
+        max-height: 100px;
+    }
+    
+}
