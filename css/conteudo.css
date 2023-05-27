@@ -19,10 +19,8 @@
 .img-text {
     display: flex;
     margin-top: 2rem;
-    width: 720%;
+    width: 60vw;
     height: 100%;
-    background: linear-gradient(to left, #F5F5DC 5%, transparent 58%), url(../img/banner-1.jpg);
-    background-repeat: no-repeat;
 }
 .img-reverse {
     background-image: linear-gradient(to right, #F5F5DC 5%, transparent 58%);
