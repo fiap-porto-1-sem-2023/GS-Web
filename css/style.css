@@ -47,12 +47,7 @@ body {
 }
 
 @media(max-width: 1848px){
-    .header{
-        height: 12vh;
-        justify-content: space-between;
-    }
     .header img{
-        height: 11vh;
         width: 14.2vw;
         margin-left: 1.4vw;
     }
@@ -62,9 +57,6 @@ body {
     .header a{
         font-size: 1.7rem;
         padding-left: 4vw;
-    }
-    .txt{
-        margin-top: 4vh;
     }
     .txt img{
         margin-top: 10vh;
@@ -80,10 +72,6 @@ body {
 }
 
 @media(max-width: 1458px){
-    .header{
-        height: 12vh;
-        justify-content: space-between;
-    }
     .header img{
         height: 10vh;
         width: 12.5vw;
@@ -96,16 +84,11 @@ body {
         font-size: 1.2rem;
         padding-left: 3.5vw;
     }
-    .txt{
-        margin-top: 4vh;
-    }
     .txt img{
         margin-top: 0vh;
     }
     .descricao h3{
         font-size: 2rem;
-        padding-top: 0vh;
-        text-align: left;
     }
     .descricao p{
         font-size: 1rem;
