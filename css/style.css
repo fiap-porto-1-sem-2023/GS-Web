@@ -320,3 +320,25 @@ body {
         height: 35vh;
     }
 }
+
+@media(max-width: 425px){
+
+    .header img{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 1vh;
+    }
+    .header a{
+        font-size: 0.6rem;
+    }
+    .carousel button{
+        max-width: 17px;
+    }
+    .carousel img {
+        height: 30vh;
+    }
+
+    .descricao h3{
+        font-size: 1rem;
+    }
+}
