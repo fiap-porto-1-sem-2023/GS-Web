@@ -187,20 +187,51 @@ body {
     .header a{
         font-size: 0.9rem;
     }
-    .txt img{
-        width: 34vw;
-        height: 100%;
-    }
-    .descricao h3{
-        font-size: 1.3rem;
-    }
     .descricao p{
         font-size: 0.9rem;
     }
     .carousel-inner h5{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     .carousel-inner p{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 767px){
+    .header img{
+        width: 13.5vw;
+        height: 8.8vh;
+    }
+    .header nav{
+        padding-right: 2vw;
+    }
+    .header a{
+        font-size: 0.75rem;
+    }
+    .descricao h3{
+        font-size: 1.1rem;
+    }
+    .descricao p{
+        font-size: 0.846rem;
+    }
+    .carousel-inner h5{
+        font-size: 0.7rem;
+    }
+    .carousel-inner p{
+        font-size: 0.7rem;
+    }
+    .carousel img {
+        height: 50vh;
+    }
+    .carousel-indicators button{
+        width: 25px;
+    }
+    .footer h4{
         font-size: 0.8rem;
+    }
+    .footer img{
+        max-width: 80px; 
+        max-height: 80px;
     }
 }
