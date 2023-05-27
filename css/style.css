@@ -269,4 +269,28 @@ body {
     .carousel button{
         max-width: 20px;
     }
+    .txt{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .txt .intercalado{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .descricao h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .txt img{
+        width: 65vw;
+    }
+    .img-conteudo{
+        width: 65vw;
+    }
 }
