@@ -331,6 +331,9 @@ body {
     .header a{
         font-size: 0.6rem;
     }
+    .carousel {
+        width: 80vw;
+    }
     .carousel button{
         max-width: 17px;
     }
@@ -341,4 +344,20 @@ body {
     .descricao h3{
         font-size: 1rem;
     }
+}
+
+@media(max-width: 400px){
+    .header img{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 1vh;
+    }
+    .header nav{
+        flex-direction: column;
+    }
+    .header a{
+        font-size: 0.6rem;
+        padding-top: 0.5vh;
+    }
+
 }
