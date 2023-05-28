@@ -335,7 +335,7 @@ body {
         width: 80vw;
     }
     .carousel button{
-        max-width: 17px;
+        max-width: 15px;
     }
     .carousel img {
         height: 30vh;
@@ -348,16 +348,12 @@ body {
 
 @media(max-width: 400px){
     .header img{
-        width: 20vw;
-        height: 7vh;
-        margin-top: 1vh;
-    }
-    .header nav{
-        flex-direction: column;
+        width: 25vw;
+        height: 8.5vh;
     }
     .header a{
-        font-size: 0.6rem;
-        padding-top: 0.5vh;
+        font-size: 0.536rem;
+        font-family:Arial, Helvetica, sans-serif;
     }
 
 }
