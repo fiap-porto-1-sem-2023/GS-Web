@@ -357,3 +357,17 @@ body {
     }
 }
 
+@media(max-width: 357px){
+    .header img{
+        width: 24.6vw;
+        height: 7.5vh;
+    }
+    .header a{
+        font-size: 0.53rem;
+        font-weight: 540;
+    }
+    .carousel button{
+        max-width: 13px;
+    }
+
+}
