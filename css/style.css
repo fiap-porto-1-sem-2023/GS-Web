@@ -348,12 +348,12 @@ body {
 
 @media(max-width: 400px){
     .header img{
-        width: 25vw;
-        height: 8.5vh;
+        width: 24.5vw;
+        height: 8vh;
     }
     .header a{
         font-size: 0.536rem;
         font-family:Arial, Helvetica, sans-serif;
     }
-
 }
+
