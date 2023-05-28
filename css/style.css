@@ -177,7 +177,7 @@ body {
     
 }
 
-@media(max-width: 894px){
+@media(max-width: 900px){
     .header img{
         width: 15vw;
     }
@@ -187,20 +187,202 @@ body {
     .header a{
         font-size: 0.9rem;
     }
-    .txt img{
-        width: 34vw;
-        height: 100%;
+    .descricao p{
+        font-size: 0.9rem;
+    }
+    .carousel-inner h5{
+        font-size: 1rem;
+    }
+    .carousel-inner p{
+        font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 768px){
+    .header img{
+        width: 13.5vw;
+        height: 8.2vh;
+        margin-left: 0.4vw;
+    }
+    .header nav{
+        padding-right: 1.2vw;
+    }
+    .header a{
+        font-size: 0.72rem;
     }
     .descricao h3{
-        font-size: 1.3rem;
+        font-size: 1.05rem;
     }
     .descricao p{
-        font-size: 0.96rem;
+        font-size: 0.76rem;
+    }
+    .txt img{
+        width: 40vw;
+    }
+    .carousel img {
+        height: 50vh;
     }
     .footer h4{
         font-size: 0.8rem;
     }
-    .carousel img {
-        height: 60vh;
+    .footer img{
+        max-width: 80px; 
+        max-height: 80px;
     }
+    .btn-carrosel button{
+        width: 2px;
+    }
+    .carousel-inner h5{
+        font-size: 0.9rem;
+    }
+    .carousel-inner p{
+        font-size: 0.68rem;
+    }
+    .carousel button{
+        max-width: 25px;
+    }
+}
+
+@media(max-width: 580px){
+    .header img{
+        width: 13.6vw;
+        height: 7vh;
+        margin-left: 0.4vw;
+    }
+    .header nav{
+        padding-right: 1.2vw;
+    }
+    .header a{
+        font-size: 0.63rem;
+    }
+
+    .footer h4{
+        font-size: 0.6rem;
+    }
+    .footer img{
+        max-width: 60px; 
+        max-height: 60px;
+    }
+    .carousel img {
+        height: 40vh;
+    }
+    .carousel button{
+        max-width: 20px;
+    }
+    .txt{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .txt .intercalado{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 2rem;
+    }
+    .descricao h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    .txt img{
+        width: 65vw;
+    }
+    .img-conteudo{
+        width: 65vw;
+    }
+}
+
+@media(max-width: 503px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 16vh;
+    }
+    .header img{
+        width: 20vw;
+        height: 8vh;
+    }
+    .header nav{
+        justify-content: space-around;
+        padding-bottom: 3vh;
+    }
+    .header a{
+        
+        font-size: 0.63rem;
+    }
+    .carousel button{
+        max-width: 17px;
+    }
+    .carousel img {
+        height: 35vh;
+    }
+}
+
+@media(max-width: 425px){
+
+    .header img{
+        width: 20vw;
+        height: 7vh;
+        margin-top: 1vh;
+    }
+    .header a{
+        font-size: 0.6rem;
+    }
+    .carousel {
+        width: 80vw;
+    }
+    .carousel button{
+        max-width: 15px;
+    }
+    .carousel img {
+        height: 30vh;
+    }
+
+    .descricao h3{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .header img{
+        width: 24.5vw;
+        height: 8vh;
+    }
+    .header a{
+        font-size: 0.536rem;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+}
+
+@media(max-width: 357px){
+    .header img{
+        width: 24.6vw;
+        height: 7.5vh;
+    }
+    .header a{
+        font-size: 0.53rem;
+        font-weight: 540;
+    }
+    .carousel button{
+        max-width: 13px;
+    }
+
+}
+
+@media(max-width: 323px){
+    .header img{
+        width: 24.6vw;
+        height: 7vh;
+    }
+    .header a{
+        font-size: 0.52rem;
+        font-weight: 450;
+    }
+    .carousel button{
+        max-width: 11px;
+    }
+
 }

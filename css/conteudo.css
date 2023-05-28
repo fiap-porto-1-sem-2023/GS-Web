@@ -26,4 +26,21 @@
     background-image: linear-gradient(to right, #F5F5DC 5%, transparent 58%);
 }
 
+.txt-conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3.5rem;
+    text-align: justify;
+}
+.txt-conteudo h3{
+    display: flex;
+    justify-content: center;
+}
+
+.img-conteudo{
+    width: 50vw;
+    height: 100%;
+}
+
 
