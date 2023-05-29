@@ -5,81 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <div class="main-contato">
-        <form method="get" class="form-contato">
-          <fieldset class="field-box">
-            <legend class="text-contato">Contato</legend>
-            <div>
-              <label for="idNome">Nome: </label>
-              <input type="text" name="Nome" id="idNome" placeholder="   Digite seu nome"/>
-              <small id="idErrorNome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <label for="idSobrenome">Sobrenome: </label>
-              <input type="text" name="Sobrenome" id="idSobrenome" placeholder="   Digite seu sobrenome"/>
-              <small id="idErrorSobrenome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <label for="idEmail">E-mail: </label>
-              <input type="text" name="Email" id="idEmail" placeholder="   Digite seu e-mail"/>
-              <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <label for="idTelefone">Telefone: </label>
-              <input type="text" name="Telefone" id="idTelefone" placeholder="   Digite seu telefone"/>
-              <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <label>Estado:</label>
-              <select id="estados" name="estados">
-                <option value="">Selecione um Estado</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-              </select>
-            </div>
-            <div>
-              <label for="idAssunto">Assunto: </label>
-              <input type="text" name="Assunto" id="idAssunto" placeholder="   Digite o assunto"/>
-              <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-            <label for="idMensagem">Mensagem:</label>
-            <textarea id="idMensagem" name="mensagem"></textarea>
-            <small id="idErrorMensagem" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-          </div> 
-            <div class="div-buttons">
-              <button type="submit" id="btnSubmit" class="btn-entrar">Entrar</button>
-              <button type="reset" id="btnLimpar" class="btn-limpar">Limpar</button>
-            </div>  
-          </fieldset>
-        </form>
-      </div>
+  <header class="header">
+    <div class="img-header">
+        <a href="../index.html">
+            <img src="../img/logo-branca-prt.png" alt="Logo Seeds of Wisdom" />
+        </a>
+    </div>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./agricultura.html">Agricultura Sustentavel</a>
+        <a href="./inteligencia.html">Inteligencia Artificial</a>
+        <a href="./cultivo.html">Cultivo Eficiente</a>
+    </nav>
+  </header>
+
+  <div class="main-contato">
+    <form method="get" class="form-contato">
+      <fieldset class="field-box">
+        <legend class="text-contato">Contato</legend>
+        <div>
+          <label for="idNome">Nome: </label>
+          <input type="text" name="Nome" id="idNome" placeholder="   Digite seu nome"/>
+          <small id="idErrorNome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+        </div>
+        <div>
+          <label for="idSobrenome">Sobrenome: </label>
+          <input type="text" name="Sobrenome" id="idSobrenome" placeholder="   Digite seu sobrenome"/>
+          <small id="idErrorSobrenome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+        </div>
+        <div>
+          <label for="idEmail">E-mail: </label>
+          <input type="text" name="Email" id="idEmail" placeholder="   Digite seu e-mail"/>
+          <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+        </div>
+        <div>
+          <label for="idTelefone">Telefone: </label>
+          <input type="text" name="Telefone" id="idTelefone" placeholder="   Digite seu telefone"/>
+          <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+        </div>
+        <div>
+          <label>Estado:</label>
+          <select id="estados" name="estados">
+            <option value="">Selecione um Estado</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+        </div>
+        <div>
+          <label for="idAssunto">Assunto: </label>
+          <input type="text" name="Assunto" id="idAssunto" placeholder="   Digite o assunto"/>
+          <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+        </div>
+        <div>
+        <label for="idMensagem">Mensagem:</label>
+        <textarea id="idMensagem" name="mensagem"></textarea>
+        <small id="idErrorMensagem" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+      </div> 
+        <div class="div-buttons">
+          <button type="submit" id="btnSubmit" class="btn-entrar">Entrar</button>
+          <button type="reset" id="btnLimpar" class="btn-limpar">Limpar</button>
+        </div>  
+      </fieldset>
+    </form>
+  </div>
+  
+  <footer class="footer">
+    <h4>NOSSOS PARCEIROS</h4>
+    <nav>
+        <a href="https://www.microsoft.com/" target="_blank"><img src="../img/logo-microsoft.png"
+                alt="Logo Microsoft" class="logo-mi"></a>
+        <a href="https://www.cacafome.com.br/" target="_blank"><img src="../img/logo-cacafome.png"
+                alt="Logo Caca Fome" class="logo-cf"></a>
+        <a href="https://www.fiap.com.br/" target="_blank"><img src="../img/logo-fiap.png" alt="Logo FIAP"
+                class="logo-fp"></a>
+        <a href="https://www.heinzbrasil.com.br/" target="_blank"><img src="../img/logo-heinz.png"
+                alt="Logo KraftHeinz" class="logo-hz"></a>
+    </nav>
+</footer>
+
 </body>
 </html>

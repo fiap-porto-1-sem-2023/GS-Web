@@ -6,6 +6,7 @@
     background-color: #8B4513;
     height: 18vh;
     width: 100% ;
+    max-width: 100%;
   }
 
 .header img{
