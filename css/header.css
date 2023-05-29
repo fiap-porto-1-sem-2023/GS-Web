@@ -20,7 +20,7 @@
   text-align: center;
 }
   
-.header a {
+.header nav a{
   text-decoration: none;
   font-size: 1.38rem;
   font-family: 'Montserrat', sans-serif;
