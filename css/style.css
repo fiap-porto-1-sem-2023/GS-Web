@@ -52,6 +52,9 @@ body {
     .descricao-interna p{
         font-size: 1.7rem;
     }
+    .title{        
+        font-size: 4rem;
+    }
 }
 
 @media(max-width: 1848px){
@@ -85,6 +88,9 @@ body {
     .descricao-interna p{
         font-size: 1.67rem;
     }
+    .title{        
+        font-size: 3.5rem;
+    }
 }
 
 @media(max-width: 1458px){
@@ -115,31 +121,8 @@ body {
     .descricao-interna p{
         font-size: 1rem;
     }
-}
-
-@media(max-width: 1458px){
-    .header img{
-        height: 10vh;
-        width: 12.5vw;
-        margin-left: 1.4vw;
-    }
-    .header nav{
-        padding-right: 3vw;
-    }
-    .header nav a{
-        font-size: 1.2rem;
-    }
-    .descricao-interna h3{
-        font-size: 2rem;
-    }
-    .descricao h3{
-        font-size: 2rem;
-    }
-    .descricao p{
-        font-size: 1rem;
-    }
-    .descricao-interna p{
-        font-size: 1rem;
+    .title{        
+        font-size: 2.8rem;
     }
 }
 
