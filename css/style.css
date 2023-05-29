@@ -45,6 +45,9 @@ body {
     .descricao p{
         font-size: 1.7rem;
     }
+    .descricao-interna p{
+        font-size: 1.7rem;
+    }
 }
 
 @media(max-width: 1848px){
@@ -68,6 +71,9 @@ body {
         text-align: left;
     }
     .descricao p{
+        font-size: 1.67rem;
+    }
+    .descricao-interna p{
         font-size: 1.67rem;
     }
 }
@@ -94,6 +100,9 @@ body {
     .descricao p{
         font-size: 1rem;
     }
+    .descricao-interna p{
+        font-size: 1rem;
+    }
 }
 
 @media(max-width: 1458px){
@@ -112,6 +121,9 @@ body {
         font-size: 2rem;
     }
     .descricao p{
+        font-size: 1rem;
+    }
+    .descricao-interna p{
         font-size: 1rem;
     }
 }
@@ -136,6 +148,9 @@ body {
     }
     .descricao p{
         font-size: 0.96rem;
+    }
+    .descricao-interna p{
+        font-size: 96rem;
     }
     .footer h4{
         font-size: 1rem;
@@ -166,6 +181,9 @@ body {
         font-size: 1.3rem;
     }
     .descricao p{
+        font-size: 0.96rem;
+    }
+    .descricao-interna p{
         font-size: 0.96rem;
     }
     .footer h4{
@@ -189,6 +207,9 @@ body {
         font-size: 0.9rem;
     }
     .descricao p{
+        font-size: 0.9rem;
+    }
+    .descricao-interna p{
         font-size: 0.9rem;
     }
     .carousel-inner h5{
@@ -215,6 +236,9 @@ body {
         font-size: 1.05rem;
     }
     .descricao p{
+        font-size: 0.76rem;
+    }
+    .descricao-interna p{
         font-size: 0.76rem;
     }
     .txt img{
