@@ -3,7 +3,7 @@
 }
 .title{
     color: #905E26          ;
-    font-size: 3.2rem;
+    font-size: 3.4rem;
     text-align: center;
 }
 .bloco-conteudo{
@@ -16,5 +16,9 @@
 }
 .descricao-interna h3{
     color: #4B0082;
+    font-size: 2.4rem;
+    margin-bottom: 1vh;
+}
+.descricao-interna p{
     font-size: 2rem;
 }
