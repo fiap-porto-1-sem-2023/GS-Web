@@ -151,43 +151,6 @@ body {
         font-size: 0.96rem;
     }
     .descricao-interna p{
-        font-size: 96rem;
-    }
-    .footer h4{
-        font-size: 1rem;
-    }
-    .footer img{
-        max-width: 100px; 
-        max-height: 100px;
-    }
-    
-}
-
-@media(max-width: 1112px){
-    .header img{
-        height: 10.5vh;
-        width: 12vw;
-    }
-    .header nav{
-        padding-right: 3vw;
-    }
-    .header nav a{
-        font-size: 1.1rem;
-    }
-    .txt img{
-        width: 34vw;
-        height: 100%;
-    }
-    .descricao-interna h3{
-        font-size: 1.3rem;
-    }
-    .descricao h3{
-        font-size: 1.3rem;
-    }
-    .descricao p{
-        font-size: 0.96rem;
-    }
-    .descricao-interna p{
         font-size: 0.96rem;
     }
     .footer h4{
@@ -197,7 +160,9 @@ body {
         max-width: 100px; 
         max-height: 100px;
     }
-    
+    .title{        
+        font-size: 2rem;
+    } 
 }
 
 @media(max-width: 900px){
@@ -273,6 +238,9 @@ body {
     .carousel button{
         max-width: 25px;
     }
+    .title{        
+        font-size: 1.45rem;
+    } 
 }
 
 @media(max-width: 580px){
@@ -381,6 +349,9 @@ body {
     .descricao-interna h3{
         font-size: 1rem;
     }
+    .title{        
+        font-size: 1.2rem;
+    } 
 }
 
 @media(max-width: 400px){
@@ -406,7 +377,19 @@ body {
     .carousel button{
         max-width: 13px;
     }
-
+    .title{        
+        font-size: 1rem;
+    } 
+    .descricao h3{
+        font-size: 0.9rem;
+    }
+    .descricao-interna h3{
+        font-size: 0.9rem;
+    }
+    .footer img{
+        max-width: 50px; 
+        max-height: 50px;
+    }
 }
 
 @media(max-width: 323px){
