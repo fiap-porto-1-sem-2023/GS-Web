@@ -15,7 +15,7 @@ body {
     overflow-x: hidden;
 }
 .main{
-    margin: 0 7%;
+    margin: 7vh 7%;
 }
 
 @media(max-width: 2560px){
