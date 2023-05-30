@@ -36,11 +36,13 @@
 .txt-conteudo h3{
     display: flex;
     justify-content: center;
+    text-align: left;
 }
 
 .img-conteudo{
-    width: 50vw;
+    width: 45vw;
     height: 100%;
+    margin-top: 3vh;
 }
 
 
