@@ -1,0 +1,14 @@
+.main-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-contato{
+    max-width: 90vw;
+    max-height: 100vh;
+}
+
+.form-contato{
+    
+}
