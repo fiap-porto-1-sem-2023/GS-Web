@@ -1,6 +1,3 @@
-.conteudo-pages{
-    font-family: 'Montserrat', sans-serif;
-}
 .banner-header-interno{
     height: 30vh;
     width: 100%;
@@ -40,11 +37,11 @@
     align-items: center;
     text-align: justify;
 }
-.descricao-interna h3{
+
+.descricao h3{
     color: #4B0082;
-    font-size: 2.4rem;
-    margin-bottom: 2vh;
 }
-.descricao-interna p{
-    font-size: 2rem;
+.descricao p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1vh;
 }

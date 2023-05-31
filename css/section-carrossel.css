@@ -1,15 +1,20 @@
 .carousel img {
-    height: 60vh;
+    height: 55vh;
     border-radius: 15px;
 }
 .container-carrousel{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
     
 }
 .carousel {
     max-width: 100%;
     width: 55vw;
+}
+.carousel-inner h5{
+    font-size: 1.8rem;
+}
+.carousel-inner p{
+    font-size: 1.1rem;
 }
