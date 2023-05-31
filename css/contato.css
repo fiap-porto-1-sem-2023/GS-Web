@@ -7,7 +7,7 @@
 .form-contato{
     background-color: #ffffff;
     border-radius: 8px;
-    width: 30vw;
+    width: 35vw;
     padding: 3rem 1%;
     box-shadow: 8px 8px 20px -7px rgba(0,2,0,0.5);
     font-family: 'Montserrat', sans-serif;
@@ -26,10 +26,7 @@
     border-style: groove;
     border-color: #050032;
     margin-left: 8px;
-}
-.field-box label{
-    color:#050032;
-    font-size: 1.8rem;
+    
 }
 .field-box p{
     font-size: 1.3rem;
