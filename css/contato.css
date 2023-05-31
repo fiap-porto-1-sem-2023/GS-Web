@@ -2,13 +2,81 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 5% 0 5% 0;
 }
-
-.container-contato{
-    max-width: 90vw;
-    max-height: 100vh;
-}
-
 .form-contato{
-    
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 30vw;
+    padding: 3rem 1%;
+    box-shadow: 8px 8px 20px -7px rgba(0,2,0,0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+.field-box{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.decoretion-form{
+    height: 4vh;
+    width: 16vw;
+    border-radius: 7px;
+    font-size: 1.25rem;
+    border-style: groove;
+    border-color: #050032;
+    margin-left: 8px;
+}
+.field-box label{
+    color:#050032;
+    font-size: 1.8rem;
+}
+.field-box p{
+    font-size: 1.3rem;
+    margin: -1vh 0 1.4vh;
+    text-align: center;
+}
+.bloco-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px 0 0 24px;
+}
+.select select{
+    margin-bottom: 15px;
+}
+.bloco-form textarea{
+    height: 40px;
+    width: 500px;
+}
+.box-contato{
+    display: flex;
+    margin: 1vh;
+    flex-direction: column;
+}
+.div-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3vh;
+}
+.btn-contato{
+    font-size: 1.6rem;
+    color: #f0f0f0;
+    height: 5vh;
+    width: 10vw;
+    background-color: #050032;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn-contato:hover{
+    opacity: 0.85;
+}
+.text-contato {
+    color:#002344;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 2vh;
 }
