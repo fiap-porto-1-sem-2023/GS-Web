@@ -11,10 +11,11 @@
     box-sizing: border-box;
 }
 body {
-    background: #F5F5DC !important;
+    background: #efefef !important;
     overflow-x: hidden;
 }
-.main{
+
+.principal{
     margin: 7vh 7%;
 }
 

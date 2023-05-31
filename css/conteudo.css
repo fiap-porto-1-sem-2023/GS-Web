@@ -1,12 +1,40 @@
 .conteudo p{
     font-family: 'Montserrat', sans-serif;
 }
-
+.banner-header{
+    height: 75vh;
+    width: 100%;
+    max-width: 100%;
+    background-image: url(../img/teste-banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 1.8vh;
+    margin-top: 5vh;
+}
+.text-header{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.text-header h1{
+    border-bottom: 20vh;
+    font-size: 2.7rem;
+    border-bottom: 1.5px solid #000;
+    color: #000;
+}
+.text-header h4{
+    padding-top: 2.7vh;
+    font-size: 1.8rem;
+    color: #000;
+}
 .conteudo h3{
     color: #4B0082;
     font-family: 'Montserrat', sans-serif;
 }
-
 .txt {
     display: flex;
     gap: 3rem;
@@ -21,28 +49,23 @@
     margin-top: 2rem;
     width: 60vw;
     height: 100%;
+    border-radius: 15px;
 }
 .img-reverse {
     background-image: linear-gradient(to right, #F5F5DC 5%, transparent 58%);
 }
-
-.txt-conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 3.5rem;
-    text-align: justify;
-}
-.txt-conteudo h3{
-    display: flex;
-    justify-content: center;
-    text-align: left;
-}
-
 .img-conteudo{
     width: 45vw;
     height: 100%;
     margin-top: 3vh;
 }
-
+.title-home{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.title-home h1{
+    color: #4B0082;
+    font-size: 3rem;
+}
 

@@ -1,15 +1,15 @@
-body {
-    background-color: #F5F5DC;
-}
 .carousel img {
-    height: 70vh;
+    height: 60vh;
+    border-radius: 15px;
 }
 .container-carrousel{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3vh;
+    
 }
 .carousel {
     max-width: 100%;
-    width: 70vw;
+    width: 55vw;
 }
