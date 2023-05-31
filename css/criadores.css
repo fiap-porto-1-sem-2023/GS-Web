@@ -1,11 +1,14 @@
 .criadores{
     display: flex;
     justify-content: space-around; 
-    margin: 0vh 7%;
+    margin: 0vh 3%;
+    flex-wrap: wrap;
 }
 .bloco-criadores{
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 15px;
 }
 .perfil{
     display: flex;
@@ -22,9 +25,6 @@
     color: #0046b7;
     cursor: pointer;
 }
-.legenda{
-    font-size: 1.6rem;
-}
 .img-perfil{
     max-width: 250px; 
     max-height: 250px;
@@ -40,5 +40,5 @@
 }
 .perfil-contato{
     display: flex;
-    gap: 15px;
+    gap: 18px;
 }

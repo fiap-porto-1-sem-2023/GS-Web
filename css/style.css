@@ -93,6 +93,30 @@ body {
     .title{        
         font-size: 3.5rem;
     }
+    .img-perfil{
+        max-width: 220px; 
+        max-height: 220px;
+    }
+    .icon{
+        max-width: 35px; 
+        max-height: 35px;
+    }
+    .perfil p{
+        font-size: 1.6rem;
+    }
+    .banner-header{
+        height: 73vh;
+    }
+    .text-header h1{
+        border-bottom: 17vh;
+        font-size: 2.5rem;
+        border-bottom: 1.5px solid #000;
+        width: 900px;
+    }
+    .text-header h4{
+        padding-top: 2.4vh;
+        font-size: 1.8rem;
+    }
 }
 
 @media(max-width: 1458px){
@@ -125,6 +149,42 @@ body {
     }
     .title{        
         font-size: 2.8rem;
+    }
+    .img-perfil{
+        max-width: 180px; 
+        max-height: 180px;
+    }
+    .icon{
+        max-width: 32px; 
+        max-height: 32px;
+    }
+    .perfil p{
+        font-size: 1.5rem;
+    }
+    .carousel-inner h5{
+        font-size: 1.2rem;
+    }
+    .carousel-inner p{
+        font-size: 0.77rem;
+    }
+    .carousel img {
+        height: 56vh;
+    }
+    .carousel {
+        width: 50vw;
+    }
+    .banner-header{
+        height: 76vh;
+    }
+    .text-header h1{
+        border-bottom: 17vh;
+        font-size: 1.7rem;
+        border-bottom: 1px solid #000;
+        width: 600px;
+    }
+    .text-header h4{
+        padding-top: 2vh;
+        font-size: 1.2rem;
     }
 }
 
@@ -165,6 +225,34 @@ body {
     .title{        
         font-size: 2rem;
     } 
+    .img-perfil{
+        max-width: 160px; 
+        max-height: 160px;
+    }
+    .icon{
+        max-width: 27px; 
+        max-height: 27px;
+    }
+    .perfil p{
+        font-size: 1rem;
+    }
+    .title-home h1{
+        font-size: 1.3rem;
+    }
+    .linha{
+        height: 2px;
+        width: 50px;
+    }
+    .text-header h1{
+        border-bottom: 17vh;
+        font-size: 1.5rem;
+        border-bottom: 1px solid #000;
+        width: 600px;
+    }
+    .text-header h4{
+        padding-top: 1vh;
+        font-size: 1rem;
+    }
 }
 
 @media(max-width: 900px){
@@ -183,13 +271,28 @@ body {
     .descricao-interna p{
         font-size: 0.9rem;
     }
+    .img-perfil{
+        max-width: 120px; 
+        max-height: 120px;
+    }
+    .icon{
+        max-width: 23px; 
+        max-height: 23px;
+    }
+    .perfil p{
+        font-size: 0.93rem;
+    }
     .carousel-inner h5{
         font-size: 1rem;
     }
     .carousel-inner p{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+    }
+    .carousel img {
+        height: 50vh;
     }
 }
+
 
 @media(max-width: 768px){
     .header img{
@@ -218,9 +321,6 @@ body {
     .txt img{
         width: 40vw;
     }
-    .carousel img {
-        height: 50vh;
-    }
     .footer h4{
         font-size: 0.8rem;
     }
@@ -231,18 +331,55 @@ body {
     .btn-carrosel button{
         width: 2px;
     }
-    .carousel-inner h5{
-        font-size: 0.9rem;
-    }
-    .carousel-inner p{
-        font-size: 0.68rem;
-    }
     .carousel button{
         max-width: 25px;
+    }
+    .carousel-inner h5{
+        font-size: 1rem;
+    }
+    .carousel-inner p{
+        font-size: 0.59rem;
+    }
+    .carousel img {
+        height: 52vh;
+    }
+    .carousel {
+        width: 65vw;
     }
     .title{        
         font-size: 1.45rem;
     } 
+    .img-perfil{
+        max-width: 110px; 
+        max-height: 110px;
+    }
+    .icon{
+        max-width: 20px; 
+        max-height: 20px;
+    }
+    .perfil p{
+        font-size: 0.79rem;
+    }
+    .title-home h1{
+        font-size: 1.18rem;
+    }
+    .linha{
+        height: 1.6px;
+        width: 50px;
+    }
+    .banner-header{
+        height: 70vh;
+    }
+    .text-header h1{
+        border-bottom: 17vh;
+        font-size: 1.3rem;
+        border-bottom: 1px solid #000;
+        width: 400px;
+    }
+    .text-header h4{
+        padding-top: 2vh;
+        font-size: 0.9rem;
+    }
 }
 
 @media(max-width: 580px){
@@ -354,6 +491,32 @@ body {
     .title{        
         font-size: 1.2rem;
     } 
+    .title-home h1{
+        font-size: 1rem;
+    }
+    .linha{
+        height: 1px;
+        width: 40px;
+    }
+    .carousel img {
+        height: 35vh;
+    }
+    .carousel {
+        width: 70vw;
+    }
+    .banner-header{
+        height: 55vh;
+    }
+    .text-header h1{
+        border-bottom: 12vh;
+        font-size: 1rem;
+        border-bottom: 1px solid #000;
+        width: 250px;
+    }
+    .text-header h4{
+        padding-top: 1vh;
+        font-size: 0.7rem;
+    }
 }
 
 @media(max-width: 400px){
@@ -374,7 +537,6 @@ body {
     }
     .header nav a{
         font-size: 0.53rem;
-        font-weight: 540;
     }
     .carousel button{
         max-width: 13px;
@@ -401,10 +563,28 @@ body {
     }
     .header nav a{
         font-size: 0.52rem;
-        font-weight: 450;
     }
     .carousel button{
         max-width: 11px;
     }
-
+    .title-home h1{
+        font-size: 1rem;
+    }
+    .linha{
+        height: 0.9px;
+        width: 20px;
+    }
+    .banner-header{
+        height: 45vh;
+    }
+    .text-header h1{
+        border-bottom: 12vh;
+        font-size: 0.95rem;
+        border-bottom: 1px solid #000;
+        width: 180px;
+    }
+    .text-header h4{
+        padding-top: 1vh;
+        font-size: 0.6rem;
+    }
 }
