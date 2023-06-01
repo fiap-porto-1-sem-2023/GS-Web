@@ -269,6 +269,14 @@ body {
     .text-contato {
         font-size: 1.9rem;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .row{
+        margin-left: 1.6vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.6rem;
+    }
 }
 
 @media(max-width: 1112px){
@@ -355,6 +363,18 @@ body {
         font-size: 1.25rem;
         height: 7vh;
         width: 12vw;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 36vh;
+        margin-top: 5vh;
+    }
+    .row{
+        margin-left: 1.6vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.6rem;
     }
 }
 
