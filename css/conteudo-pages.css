@@ -41,11 +41,12 @@
 
 .subtitulo-pages{
     font-family: 'Montserrat', sans-serif;
-    font-size: rem;
+    font-size: 3rem;
     color: #4B0082;
-    font-style:normal;
+    text-align: left;
 }
-.descricao p{
+.paragrafo{
     font-family: 'Montserrat', sans-serif;
-    margin-top: 1vh;
+    margin-top: 1.3vh;
+    text-align: justify;
 }

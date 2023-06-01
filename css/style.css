@@ -49,7 +49,7 @@ body {
         font-size: 3rem;
         padding-top: 4vh;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1.7rem;
     }
     .descricao-interna p{
@@ -100,7 +100,7 @@ body {
         padding-top: 0vh;
         text-align: left;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1.67rem;
     }
     .descricao-interna p{
@@ -175,7 +175,7 @@ body {
     .descricao h3{
         font-size: 2rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1rem;
     }
     .descricao-interna p{
@@ -269,7 +269,7 @@ body {
     .descricao h3{
         font-size: 1.3rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.96rem;
     }
     .descricao-interna p{
@@ -345,7 +345,7 @@ body {
     .header nav a{
         font-size: 0.9rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.9rem;
     }
     .descricao-interna p{
@@ -418,7 +418,7 @@ body {
     .descricao h3{
         font-size: 1.05rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.76rem;
     }
     .descricao-interna p{
