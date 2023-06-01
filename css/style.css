@@ -794,6 +794,28 @@ body {
         max-width: 50px; 
         max-height: 50px;
     }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 95vw;
+    }
+    .icon-input{
+        margin: 8px 0 0 224px;
+        max-width: 16px;
+        max-height: 16px;
+    }
+    .decoretion-form{
+        height: 30px;
+        width: 243px;
+        font-size: 0.67rem;
+    }
+    .bloco-form textarea{
+        min-height: 150px;
+        min-width: 260px;
+        max-height: 150px;
+        max-width: 260px;
+        margin-top: 5px;
+    }
 }
 
 @media(max-width: 323px){
