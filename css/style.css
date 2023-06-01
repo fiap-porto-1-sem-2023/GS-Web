@@ -73,6 +73,17 @@ body {
         max-width: 35px;
         max-height: 35px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 39vh;
+    }
+    .row{
+        margin-left: 3vw;
+    }
+    .text-header-interno h1{
+        font-size: 2.5rem;
+    }
 }
 
 @media(max-width: 1848px){
