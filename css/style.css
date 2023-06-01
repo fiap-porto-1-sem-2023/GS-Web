@@ -489,10 +489,10 @@ body {
 
     /* PAGE CONTATO */
     .form-contato{
-        width: 80vw;
+        width: 70vw;
     }
     .icon-input{
-        margin: 14px 0 0 270px;
+        margin: 12px 0 0 270px;
         max-width: 18px;
         max-height: 19px;
     }
@@ -596,6 +596,8 @@ body {
         max-height: 190px;
         max-width: 290px;
     }
+
+    
 }
 
 @media(max-width: 503px){
@@ -621,6 +623,32 @@ body {
     }
     .carousel img {
         height: 35vh;
+    }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 75vw;
+    }
+    .icon-input{
+        margin: 12px 0 0 250px;
+        max-width: 16px;
+        max-height: 16px;
+    }
+    .decoretion-form{
+        height: 40px;
+        width: 280px;
+        font-size: 0.78rem;
+    }
+    .btn-contato{
+        font-size: 1rem;
+        height: 6vh;
+        width: 20vw;
+    }
+    .bloco-form textarea{
+        min-height: 160px;
+        min-width: 300px;
+        max-height: 160px;
+        max-width: 300px;
     }
 }
 
