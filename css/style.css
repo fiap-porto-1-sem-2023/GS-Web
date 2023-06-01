@@ -923,8 +923,8 @@ body {
 
 @media(max-width: 323px){
     .header img{
-        width: 24.6vw;
-        height: 7vh;
+        width: 29.5vw;
+        height: 8vh;
     }
     .header nav a{
         font-size: 0.52rem;
@@ -951,5 +951,18 @@ body {
     .text-header h4{
         padding-top: 1vh;
         font-size: 0.6rem;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 20vh;
+        margin-top: 2.7vh;
+        margin-bottom: -5vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.7rem;
     }
 }
