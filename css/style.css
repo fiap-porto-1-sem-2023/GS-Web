@@ -58,6 +58,29 @@ body {
     .title{        
         font-size: 4rem;
     }
+
+    .decoretion-form{
+        height: 65px;
+        width: 420px;
+        font-size: 1.6rem;
+        padding-left: 5px;
+    }
+    .bloco-form textarea{
+        min-height: 200px;
+        min-width: 470px;
+        max-height: 200px;
+        max-width: 470px;
+        margin-top: 15px;
+    }
+    .div-buttons{
+        margin-top: 3vh;
+        gap: 4vw;
+    }
+    .btn-contato{
+        font-size: 1.6rem;
+        height: 5vh;
+        width: 10vw;
+    }
 }
 
 @media(max-width: 1848px){
