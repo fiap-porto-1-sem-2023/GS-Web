@@ -162,6 +162,18 @@ body {
     .div-buttons{
         gap: 6vw;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 36vh;
+        margin-top: 5vh;
+    }
+    .row{
+        margin-left: 2vw;
+    }
+    .text-header-interno h1{
+        font-size: 2.4rem;
+    }
 }
 
 @media(max-width: 1458px){
