@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 <body>
   <header class="header">
@@ -30,56 +31,52 @@
           <legend class="text-contato">Contato</legend>
           <div class="bloco-form">
             <div class="bloco-input">
+
               <div class="box-input">
-                <input type="text" name="Nome" id="idNome" class="decoretion-form" placeholder="Nome"/>
+                <div class="grupo-input">
+                  <img src="../img/icon-usuario.png" alt="icon usuario" class="icon-input">
+                  <input type="text" name="Nome" id="idNome" class="decoretion-form" placeholder="Nome"/>
+                </div>
                 <small id="idErrorNome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
+
               <div class="box-input">
-                <input type="text" name="Sobrenome" id="idSobrenome" class="decoretion-form" placeholder="Sobrenome"/>
+                <div class="grupo-input">
+                  <img src="../img/icon-usuario.png" alt="icon usuario" class="icon-input">
+                  <input type="text" name="Sobrenome" id="idSobrenome" class="decoretion-form" placeholder="Sobrenome"/>
+                </div>
                 <small id="idErrorSobrenome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
+
               <div class="box-input">
-                <input type="text" name="Email" id="idEmail" class="decoretion-form" placeholder="E-mail"/>
+                <div class="grupo-input">
+                  <img src="../img/icon-email.png" alt="icon Email" class="icon-input">
+                  <input type="text" name="Email" id="idEmail" class="decoretion-form" placeholder="E-mail"/>
+                </div>
                 <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
+
               <div class="box-input">
-                <input type="text" name="Telefone" id="idTelefone" class="decoretion-form" placeholder="Telefone"/>
+                <div class="grupo-input">
+                  <img src="../img/icon-telefone.png" alt="icon telefone" class="icon-input">
+                  <input type="text" name="Telefone" id="idTelefone" class="decoretion-form" placeholder="Telefone"/>
+                </div>
                 <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
+
               <div class="box-input">
-                <select id="estados" name="estados" class="decoretion-form">
-                  <option value="">Estado</option>
-                  <option value="AC">Acre</option>
-                  <option value="AL">Alagoas</option>
-                  <option value="AP">Amapá</option>
-                  <option value="AM">Amazonas</option>
-                  <option value="BA">Bahia</option>
-                  <option value="CE">Ceará</option>
-                  <option value="DF">Distrito Federal</option>
-                  <option value="ES">Espírito Santo</option>
-                  <option value="GO">Goiás</option>
-                  <option value="MA">Maranhão</option>
-                  <option value="MT">Mato Grosso</option>
-                  <option value="MS">Mato Grosso do Sul</option>
-                  <option value="MG">Minas Gerais</option>
-                  <option value="PA">Pará</option>
-                  <option value="PB">Paraíba</option>
-                  <option value="PR">Paraná</option>
-                  <option value="PE">Pernambuco</option>
-                  <option value="PI">Piauí</option>
-                  <option value="RJ">Rio de Janeiro</option>
-                  <option value="RN">Rio Grande do Norte</option>
-                  <option value="RS">Rio Grande do Sul</option>
-                  <option value="RO">Rondônia</option>
-                  <option value="RR">Roraima</option>
-                  <option value="SC">Santa Catarina</option>
-                  <option value="SP">São Paulo</option>
-                  <option value="SE">Sergipe</option>
-                  <option value="TO">Tocantins</option>
-                </select>
+                <div class="grupo-input">
+                  <img src="../img/icon-local.png" alt="icon Local" class="icon-input">
+                  <input type="text" name="Estado" id="idEstado" class="decoretion-form" placeholder="Estado"/>
+                </div>
+                <small id="iErrordEstado" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
+
               <div class="box-input">
-                <input type="text" name="Assunto" id="idAssunto" placeholder="Assunto" class="decoretion-form"/>
+                <div class="grupo-input">
+                  <img src="../img/icon-assunto.png" alt="icon assunto" class="icon-input">
+                  <input type="text" name="Assunto" id="idAssunto" placeholder="Assunto" class="decoretion-form"/>
+                </div>
                 <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
               </div>
               <div class="box-input">

@@ -8,7 +8,7 @@
     background-color: #ffffff;
     border-radius: 8px;
     width: 40vw;
-    padding: 3rem 1%;
+    padding: 2rem 1%;
     box-shadow: 8px 8px 20px -7px rgba(0,2,0,0.5);
     font-family: 'Montserrat', sans-serif;
 }
@@ -26,16 +26,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.decoretion-form{
-    height: 65px;
-    width: 420px;
-    font-size: 1.4rem;
-    border-style: groove;
-    border-color: #050032;
-    padding-left: 5px;
-    border-style: none none groove none;
-    display: flex;
 }
 .bloco-form textarea{
     min-height: 200px;
@@ -73,4 +63,24 @@
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
+}
+
+.grupo-input img{
+    position: absolute;
+}
+.icon-input{
+    margin: 18px 0 0 380px;
+    color: #050032;
+    max-width: 35px;
+    max-height: 35px;
+}
+.decoretion-form{
+    height: 65px;
+    width: 450px;
+    font-size: 1.4rem;
+    border-style: groove;
+    border-color: #050032;
+    border-style: none none groove none;
+    display: flex;
+    padding: 0 11px 0 11px;
 }
