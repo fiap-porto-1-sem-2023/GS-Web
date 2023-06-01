@@ -45,7 +45,7 @@ body {
         font-size: 3rem;
         padding-top: 4vh;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 3rem;
         padding-top: 4vh;
     }
@@ -95,7 +95,7 @@ body {
         padding-top: 0vh;
         text-align: left;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 2.7rem;
         padding-top: 0vh;
         text-align: left;
@@ -172,7 +172,7 @@ body {
     .descricao-interna h3{
         font-size: 2rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 2rem;
     }
     .paragrafo{
@@ -266,7 +266,7 @@ body {
     .descricao-interna h3{
         font-size: 1.3rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1.3rem;
     }
     .paragrafo{
@@ -415,7 +415,7 @@ body {
     .descricao-interna h3{
         font-size: 1.05rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1.05rem;
     }
     .paragrafo{
@@ -558,7 +558,7 @@ body {
     .descricao-interna h3{
         font-size: 1.25rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -671,7 +671,7 @@ body {
     .carousel img {
         height: 30vh;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1rem;
     }
     .descricao-interna h3{
@@ -784,7 +784,7 @@ body {
     .title{        
         font-size: 1rem;
     } 
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 0.9rem;
     }
     .descricao-interna h3{
