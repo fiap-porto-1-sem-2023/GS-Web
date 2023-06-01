@@ -37,8 +37,6 @@
     align-items: center;
     text-align: justify;
 }
-
-
 .subtitulo-pages{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -50,3 +48,10 @@
     margin-top: 1.3vh;
     text-align: justify;
 }
+/* .linha-secoes{
+    height: 3px;
+    width: 100%;
+    background: #390062;
+    display: inline-flex;
+    margin: 10vh 0px;
+} */
