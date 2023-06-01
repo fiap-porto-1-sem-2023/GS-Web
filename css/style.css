@@ -59,32 +59,20 @@ body {
         font-size: 4rem;
     }
 
-    .icon-input{
-        margin: 18px 0 0 380px;
-        max-width: 35px;
-        max-height: 35px;
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 38vw;
     }
     .decoretion-form{
         height: 65px;
-        width: 450px;
-        font-size: 1.4rem;
-    }
-    .bloco-form textarea{
-        min-height: 200px;
-        min-width: 470px;
-        max-height: 200px;
-        max-width: 470px;
-        margin-top: 15px;
-    }
-    .div-buttons{
-        margin-top: 3vh;
-        gap: 4vw;
-    }
-    .btn-contato{
+        width: 475px;
         font-size: 1.6rem;
-        height: 5vh;
-        width: 10vw;
-    } 
+    }
+    .icon-input{
+        margin: 18px 0 0 400px;
+        max-width: 35px;
+        max-height: 35px;
+    }
 }
 
 @media(max-width: 1848px){
@@ -144,6 +132,24 @@ body {
     .text-header h4{
         padding-top: 2.4vh;
         font-size: 1.8rem;
+    }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 50vw;
+    }
+    .icon-input{
+        margin: 18px 0 0 430px;
+        max-width: 35px;
+        max-height: 35px;
+    }
+    .decoretion-form{
+        height: 65px;
+        width: 500px;
+        font-size: 1.6rem;
+    }
+    .div-buttons{
+        gap: 6vw;
     }
 }
 
@@ -214,6 +220,32 @@ body {
         padding-top: 2vh;
         font-size: 1.2rem;
     }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 50vw;
+    }
+    .icon-input{
+        margin: 18px 0 0 340px;
+        max-width: 35px;
+        max-height: 20px;
+    }
+    .decoretion-form{
+        height: 65px;
+        width: 380px;
+        font-size: 1.2rem;
+    }
+    .div-buttons{
+        gap: 6vw;
+    }
+    .btn-contato{
+        font-size: 1.25rem;
+        height: 7vh;
+        border-radius: 7px;
+    }
+    .text-contato {
+        font-size: 1.9rem;
+    }
 }
 
 @media(max-width: 1112px){
@@ -281,6 +313,26 @@ body {
         padding-top: 1vh;
         font-size: 1rem;
     }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 55vw;
+    }
+    .icon-input{
+        margin: 18px 0 0 340px;
+        max-width: 35px;
+        max-height: 20px;
+    }
+    .decoretion-form{
+        height: 50px;
+        width: 380px;
+        font-size: 1.2rem;
+    }
+    .btn-contato{
+        font-size: 1.25rem;
+        height: 7vh;
+        width: 12vw;
+    }
 }
 
 @media(max-width: 900px){
@@ -318,6 +370,32 @@ body {
     }
     .carousel img {
         height: 50vh;
+    }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 60vw;
+    }
+    .icon-input{
+        margin: 18px 0 0 295px;
+        max-width: 35px;
+        max-height: 20px;
+    }
+    .decoretion-form{
+        height: 50px;
+        width: 330px;
+        font-size: 0.95rem;
+    }
+    .btn-contato{
+        font-size: 1.2rem;
+        height: 7vh;
+        width: 14vw;
+    }
+    .bloco-form textarea{
+        min-height: 200px;
+        min-width: 370px;
+        max-height: 200px;
+        max-width: 370px;
     }
 }
 
@@ -407,6 +485,32 @@ body {
     .text-header h4{
         padding-top: 2vh;
         font-size: 0.9rem;
+    }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 60vw;
+    }
+    .icon-input{
+        margin: 18px 0 0 295px;
+        max-width: 35px;
+        max-height: 20px;
+    }
+    .decoretion-form{
+        height: 50px;
+        width: 330px;
+        font-size: 0.95rem;
+    }
+    .btn-contato{
+        font-size: 1.2rem;
+        height: 7vh;
+        width: 14vw;
+    }
+    .bloco-form textarea{
+        min-height: 200px;
+        min-width: 370px;
+        max-height: 200px;
+        max-width: 370px;
     }
 }
 
