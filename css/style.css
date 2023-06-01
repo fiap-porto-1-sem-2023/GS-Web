@@ -489,7 +489,7 @@ body {
 
     /* PAGE CONTATO */
     .form-contato{
-        width: 70vw;
+        width: 80vw;
     }
     .icon-input{
         margin: 14px 0 0 270px;
@@ -569,6 +569,32 @@ body {
     }
     .img-conteudo{
         width: 65vw;
+    }
+
+    /* PAGE CONTATO */
+    .form-contato{
+        width: 70vw;
+    }
+    .icon-input{
+        margin: 14px 0 0 245px;
+        max-width: 18px;
+        max-height: 19px;
+    }
+    .decoretion-form{
+        height: 35px;
+        width: 270px;
+        font-size: 0.7rem;
+    }
+    .btn-contato{
+        font-size: 0.85rem;
+        height: 6vh;
+        width: 18vw;
+    }
+    .bloco-form textarea{
+        min-height: 190px;
+        min-width: 290px;
+        max-height: 190px;
+        max-width: 290px;
     }
 }
 
