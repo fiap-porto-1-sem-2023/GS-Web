@@ -439,6 +439,11 @@ body {
         max-height: 200px;
         max-width: 370px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .text-header-interno h1{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -556,6 +561,17 @@ body {
     }
     .text-contato {
         font-size: 1.4rem;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 35vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.15rem;
     }
 }
 
