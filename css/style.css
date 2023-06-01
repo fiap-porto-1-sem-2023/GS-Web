@@ -367,14 +367,13 @@ body {
 
     /* HEADER PAGES INTERNAS */
     .banner-header-interno{
-        height: 36vh;
-        margin-top: 5vh;
+        height: 38vh;
     }
     .row{
-        margin-left: 1.6vw;
+        margin-left: 1.3vw;
     }
     .text-header-interno h1{
-        font-size: 1.6rem;
+        font-size: 1.25rem;
     }
 }
 
