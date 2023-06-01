@@ -45,11 +45,11 @@ body {
         font-size: 3rem;
         padding-top: 4vh;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 3rem;
         padding-top: 4vh;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1.7rem;
     }
     .descricao-interna p{
@@ -73,6 +73,17 @@ body {
         max-width: 35px;
         max-height: 35px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 39vh;
+    }
+    .row{
+        margin-left: 3vw;
+    }
+    .text-header-interno h1{
+        font-size: 2.5rem;
+    }
 }
 
 @media(max-width: 1848px){
@@ -95,12 +106,12 @@ body {
         padding-top: 0vh;
         text-align: left;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 2.7rem;
         padding-top: 0vh;
         text-align: left;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1.67rem;
     }
     .descricao-interna p{
@@ -151,6 +162,18 @@ body {
     .div-buttons{
         gap: 6vw;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 36vh;
+        margin-top: 5vh;
+    }
+    .row{
+        margin-left: 2vw;
+    }
+    .text-header-interno h1{
+        font-size: 2.4rem;
+    }
 }
 
 @media(max-width: 1458px){
@@ -172,10 +195,10 @@ body {
     .descricao-interna h3{
         font-size: 2rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 2rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 1rem;
     }
     .descricao-interna p{
@@ -246,6 +269,14 @@ body {
     .text-contato {
         font-size: 1.9rem;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .row{
+        margin-left: 1.6vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.6rem;
+    }
 }
 
 @media(max-width: 1112px){
@@ -266,10 +297,10 @@ body {
     .descricao-interna h3{
         font-size: 1.3rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1.3rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.96rem;
     }
     .descricao-interna p{
@@ -333,6 +364,17 @@ body {
         height: 7vh;
         width: 12vw;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 38vh;
+    }
+    .row{
+        margin-left: 1.3vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.25rem;
+    }
 }
 
 @media(max-width: 900px){
@@ -345,7 +387,7 @@ body {
     .header nav a{
         font-size: 0.9rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.9rem;
     }
     .descricao-interna p{
@@ -397,6 +439,11 @@ body {
         max-height: 200px;
         max-width: 370px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .text-header-interno h1{
+        font-size: 1.2rem;
+    }
 }
 
 
@@ -415,10 +462,10 @@ body {
     .descricao-interna h3{
         font-size: 1.05rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1.05rem;
     }
-    .descricao p{
+    .paragrafo{
         font-size: 0.76rem;
     }
     .descricao-interna p{
@@ -515,12 +562,23 @@ body {
     .text-contato {
         font-size: 1.4rem;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 35vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 1.15rem;
+    }
 }
 
 @media(max-width: 580px){
     .header img{
-        width: 13.6vw;
-        height: 7vh;
+        width: 18.5vw;
+        height: 8vh;
         margin-left: 0.4vw;
     }
     .header nav{
@@ -558,7 +616,7 @@ body {
     .descricao-interna h3{
         font-size: 1.25rem;
     }
-    .descricao h3{
+    .subtitulo-pages{
         display: flex;
         justify-content: center;
         text-align: center;
@@ -597,7 +655,16 @@ body {
         max-width: 290px;
     }
 
-    
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 33vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.98rem;
+    }
 }
 
 @media(max-width: 503px){
@@ -650,6 +717,17 @@ body {
         max-height: 160px;
         max-width: 300px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 32.5vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.98rem;
+    }
 }
 
 @media(max-width: 425px){
@@ -671,7 +749,7 @@ body {
     .carousel img {
         height: 30vh;
     }
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 1rem;
     }
     .descricao-interna h3{
@@ -738,6 +816,18 @@ body {
     .div-buttons{
         gap: 12vw;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 25vh;
+        margin-top: 3vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.85rem;
+    }
 }
 
 @media(max-width: 400px){
@@ -784,7 +874,7 @@ body {
     .title{        
         font-size: 1rem;
     } 
-    .descricao h3{
+    .subtitulo-pages{
         font-size: 0.9rem;
     }
     .descricao-interna h3{
@@ -816,12 +906,25 @@ body {
         max-width: 260px;
         margin-top: 5px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 22vh;
+        margin-top: 2.7vh;
+        margin-bottom: -5vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.8rem;
+    }
 }
 
 @media(max-width: 323px){
     .header img{
-        width: 24.6vw;
-        height: 7vh;
+        width: 29.5vw;
+        height: 8vh;
     }
     .header nav a{
         font-size: 0.52rem;
@@ -848,5 +951,18 @@ body {
     .text-header h4{
         padding-top: 1vh;
         font-size: 0.6rem;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 20vh;
+        margin-top: 2.7vh;
+        margin-bottom: -5vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.7rem;
     }
 }
