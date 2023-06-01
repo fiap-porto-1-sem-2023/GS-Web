@@ -2,12 +2,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5% 0 5% 0;
+    margin: 3% 0 3% 0;
 }
 .form-contato{
     background-color: #ffffff;
     border-radius: 8px;
-    width: 35vw;
+    width: 40vw;
     padding: 3rem 1%;
     box-shadow: 8px 8px 20px -7px rgba(0,2,0,0.5);
     font-family: 'Montserrat', sans-serif;
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 .bloco-input{
     display: flex;
@@ -28,7 +29,7 @@
 }
 .decoretion-form{
     height: 65px;
-    width: 400px;
+    width: 420px;
     font-size: 1.4rem;
     border-style: groove;
     border-color: #050032;
@@ -38,9 +39,9 @@
 }
 .bloco-form textarea{
     min-height: 200px;
-    min-width: 400px;
+    min-width: 420px;
     max-height: 200px;
-    max-width: 400px;
+    max-width: 420px;
     margin-top: 15px;
     border-style: groove;
     border-radius: 7px;
