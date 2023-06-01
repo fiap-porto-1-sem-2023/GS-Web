@@ -577,8 +577,8 @@ body {
 
 @media(max-width: 580px){
     .header img{
-        width: 13.6vw;
-        height: 7vh;
+        width: 18.5vw;
+        height: 8vh;
         margin-left: 0.4vw;
     }
     .header nav{
@@ -655,7 +655,16 @@ body {
         max-width: 290px;
     }
 
-    
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 33vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.98rem;
+    }
 }
 
 @media(max-width: 503px){
@@ -707,6 +716,17 @@ body {
         min-width: 300px;
         max-height: 160px;
         max-width: 300px;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 32.5vh;
+    }
+    .row{
+        margin-left: 1.2vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.98rem;
     }
 }
 
@@ -795,6 +815,18 @@ body {
     }
     .div-buttons{
         gap: 12vw;
+    }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 25vh;
+        margin-top: 3vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.85rem;
     }
 }
 
