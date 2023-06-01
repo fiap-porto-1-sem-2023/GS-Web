@@ -906,6 +906,19 @@ body {
         max-width: 260px;
         margin-top: 5px;
     }
+
+    /* HEADER PAGES INTERNAS */
+    .banner-header-interno{
+        height: 22vh;
+        margin-top: 2.7vh;
+        margin-bottom: -5vh;
+    }
+    .row{
+        margin-left: 1vw;
+    }
+    .text-header-interno h1{
+        font-size: 0.8rem;
+    }
 }
 
 @media(max-width: 323px){
