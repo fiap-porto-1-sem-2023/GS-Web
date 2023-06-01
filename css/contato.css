@@ -13,49 +13,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 .field-box{
-    border: none;
+    border-style: none;
+}
+.bloco-form{
+}
+.bloco-input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .decoretion-form{
-    height: 4vh;
-    width: 16vw;
-    border-radius: 7px;
-    font-size: 1.25rem;
+    height: 60px;
+    width: 340px;
+    font-size: 1.4rem;
     border-style: groove;
     border-color: #050032;
-    margin-left: 8px;
-    
-}
-.field-box p{
-    font-size: 1.3rem;
-    margin: -1vh 0 1.4vh;
-    text-align: center;
-}
-.bloco-form{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin: 10px 0 0 24px;
-}
-.select select{
-    margin-bottom: 15px;
+    padding-left: 5px;
+    border-style: none none groove none;
 }
 .bloco-form textarea{
-    height: 40px;
-    width: 500px;
+    height: 60px;
+    width: 340px;
 }
-.box-contato{
-    display: flex;
-    margin: 1vh;
-    flex-direction: column;
-}
+
 .div-buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-top: 3vh;
+    gap: 4vw;
 }
 .btn-contato{
     font-size: 1.6rem;
@@ -70,10 +57,10 @@
 .btn-contato:hover{
     opacity: 0.85;
 }
+
 .text-contato {
-    color:#002344;
+    color:#050032;
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
-    margin: 0 0 2vh;
 }

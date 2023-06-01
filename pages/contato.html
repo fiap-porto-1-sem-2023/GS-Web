@@ -27,67 +27,72 @@
       <form method="get" class="form-contato">
         <fieldset class="field-box">
           <div class="bloco-form">
+
             <legend class="text-contato">Contato</legend>
-            <div>
-              <input type="text" name="Nome" id="idNome" class="decoretion-form" placeholder="Digite seu Nome"/>
-              <small id="idErrorNome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+
+            <div class="bloco-input">
+              <div class="box-input">
+                <input type="text" name="Nome" id="idNome" class="decoretion-form" placeholder="Nome"/>
+                <small id="idErrorNome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div>
+              <div class="box-input">
+                <input type="text" name="Sobrenome" id="idSobrenome" class="decoretion-form" placeholder="Sobrenome"/>
+                <small id="idErrorSobrenome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div>
+              <div class="box-input">
+                <input type="text" name="Email" id="idEmail" class="decoretion-form" placeholder="E-mail"/>
+                <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div>
+              <div class="box-input">
+                <input type="text" name="Telefone" id="idTelefone" class="decoretion-form" placeholder="Telefone"/>
+                <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div>
+              <div class="box-input">
+                <select id="estados" name="estados" class="decoretion-form">
+                  <option value="">Estado</option>
+                  <option value="AC">Acre</option>
+                  <option value="AL">Alagoas</option>
+                  <option value="AP">Amapá</option>
+                  <option value="AM">Amazonas</option>
+                  <option value="BA">Bahia</option>
+                  <option value="CE">Ceará</option>
+                  <option value="DF">Distrito Federal</option>
+                  <option value="ES">Espírito Santo</option>
+                  <option value="GO">Goiás</option>
+                  <option value="MA">Maranhão</option>
+                  <option value="MT">Mato Grosso</option>
+                  <option value="MS">Mato Grosso do Sul</option>
+                  <option value="MG">Minas Gerais</option>
+                  <option value="PA">Pará</option>
+                  <option value="PB">Paraíba</option>
+                  <option value="PR">Paraná</option>
+                  <option value="PE">Pernambuco</option>
+                  <option value="PI">Piauí</option>
+                  <option value="RJ">Rio de Janeiro</option>
+                  <option value="RN">Rio Grande do Norte</option>
+                  <option value="RS">Rio Grande do Sul</option>
+                  <option value="RO">Rondônia</option>
+                  <option value="RR">Roraima</option>
+                  <option value="SC">Santa Catarina</option>
+                  <option value="SP">São Paulo</option>
+                  <option value="SE">Sergipe</option>
+                  <option value="TO">Tocantins</option>
+                </select>
+              </div>
+              <div class="box-input">
+                <input type="text" name="Assunto" id="idAssunto" placeholder="Assunto" class="decoretion-form"/>
+                <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div>
+              <div class="box-input">
+                <textarea id="idMensagem" name="mensagem" class="decoretion-form" placeholder="Mensagem"></textarea>
+                <small id="idErrorMensagem" style="visibility: hidden">Aqui aparecera a msg de erro</small>
+              </div> 
+              <div class="div-buttons">
+                <button type="submit" id="btnSubmit" class="btn-contato">Enviar</button>
+                <button type="reset" id="btnLimpar" class="btn-contato">Limpar</button>
+              </div>  
             </div>
-            <div>
-              <input type="text" name="Sobrenome" id="idSobrenome" class="decoretion-form" placeholder="Digite seu sobrenome"/>
-              <small id="idErrorSobrenome" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <input type="text" name="Email" id="idEmail" class="decoretion-form" placeholder="Digite seu e-mail"/>
-              <small id="idErrorEmail" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-              <input type="text" name="Telefone" id="idTelefone" class="decoretion-form" placeholder="Digite seu telefone"/>
-              <small id="iErrordTelefone" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div class="select">
-              <select id="estados" name="estados" class="decoretion-form">
-                <option value="">Selecione um Estado</option>
-                <option value="AC">Acre</option>
-                <option value="AL">Alagoas</option>
-                <option value="AP">Amapá</option>
-                <option value="AM">Amazonas</option>
-                <option value="BA">Bahia</option>
-                <option value="CE">Ceará</option>
-                <option value="DF">Distrito Federal</option>
-                <option value="ES">Espírito Santo</option>
-                <option value="GO">Goiás</option>
-                <option value="MA">Maranhão</option>
-                <option value="MT">Mato Grosso</option>
-                <option value="MS">Mato Grosso do Sul</option>
-                <option value="MG">Minas Gerais</option>
-                <option value="PA">Pará</option>
-                <option value="PB">Paraíba</option>
-                <option value="PR">Paraná</option>
-                <option value="PE">Pernambuco</option>
-                <option value="PI">Piauí</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="RN">Rio Grande do Norte</option>
-                <option value="RS">Rio Grande do Sul</option>
-                <option value="RO">Rondônia</option>
-                <option value="RR">Roraima</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="SP">São Paulo</option>
-                <option value="SE">Sergipe</option>
-                <option value="TO">Tocantins</option>
-              </select>
-            </div>
-            <div>
-              <input type="text" name="Assunto" id="idAssunto" placeholder="Digite o assunto" class="decoretion-form"/>
-              <small id="idErrorAssunto" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div>
-            <div>
-            <textarea id="idMensagem" name="mensagem" class="decoretion-form" placeholder="Mensagem"></textarea>
-            <small id="idErrorMensagem" style="visibility: hidden">Aqui aparecera a msg de erro</small>
-            </div> 
-            <div class="div-buttons">
-              <button type="submit" id="btnSubmit" class="btn-contato">Enviar</button>
-              <button type="reset" id="btnLimpar" class="btn-contato">Limpar</button>
-            </div>  
+
           </div>
         </fieldset>
       </form>
