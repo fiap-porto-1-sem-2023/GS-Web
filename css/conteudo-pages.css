@@ -38,16 +38,14 @@
     text-align: justify;
 }
 
-.descricao h3{
+
+.subtitulo-pages{
+    font-family: 'Montserrat', sans-serif;
+    font-size: rem;
     color: #4B0082;
+    font-style:normal;
 }
 .descricao p{
     font-family: 'Montserrat', sans-serif;
     margin-top: 1vh;
-}
-.subtitulo-pages{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    color: #4B0082;
-    font-style:normal;
 }

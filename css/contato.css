@@ -16,6 +16,9 @@
     border-style: none;
 }
 .bloco-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bloco-input{
     display: flex;
@@ -24,17 +27,23 @@
     justify-content: center;
 }
 .decoretion-form{
-    height: 60px;
-    width: 340px;
+    height: 65px;
+    width: 400px;
     font-size: 1.4rem;
     border-style: groove;
     border-color: #050032;
     padding-left: 5px;
     border-style: none none groove none;
+    display: flex;
 }
 .bloco-form textarea{
-    height: 60px;
-    width: 340px;
+    min-height: 200px;
+    min-width: 400px;
+    max-height: 200px;
+    max-width: 400px;
+    margin-top: 15px;
+    border-style: groove;
+    border-radius: 7px;
 }
 
 .div-buttons{
