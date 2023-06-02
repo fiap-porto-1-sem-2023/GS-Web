@@ -1,5 +1,5 @@
 .carousel img {
-    height: 58vh;
+    height: 63vh;
     border-radius: 15px;
 }
 .container-carrousel{
@@ -16,5 +16,5 @@
     font-size: 1.8rem;
 }
 .carousel-inner p{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
