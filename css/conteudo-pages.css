@@ -48,10 +48,23 @@
     margin-top: 1.3vh;
     text-align: justify;
 }
-/* .linha-secoes{
-    height: 3px;
+.descricao-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descricao-vertical p{
+    margin-top: 5vh;
+}
+.descricao-vertical img{
+    margin-top: 3vh;
+}
+.linha-secoes{
+    margin-top: 8vh;
+    height: 1px;
     width: 100%;
     background: #390062;
     display: inline-flex;
-    margin: 10vh 0px;
-} */
+    box-shadow: 1px 1px 20px 1.5px #390062;
+    border-radius: 70px;
+}
