@@ -48,12 +48,11 @@
 }
 .intercalado {
     flex-direction: row-reverse;
-}
-.img-text {
+}.img-text {
     display: flex;
     margin-top: 2rem;
-    height: 100%;
-    max-width: 30vw;
+    height: 400px;
+    max-width: 564px;
     border-radius: 15px;
 }
 .img-reverse {

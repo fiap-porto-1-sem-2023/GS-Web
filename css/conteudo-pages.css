@@ -63,8 +63,8 @@
     margin-top: 8vh;
     height: 1px;
     width: 100%;
-    background: #390062;
+    background: #3900626c;
     display: inline-flex;
-    box-shadow: 1px 1px 20px 1.5px #390062;
+    box-shadow: 1px 1px 20px 0.1px #390062;
     border-radius: 70px;
 }
