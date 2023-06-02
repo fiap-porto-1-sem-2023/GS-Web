@@ -243,6 +243,13 @@ body {
         padding-top: 2vh;
         font-size: 1.2rem;
     }
+    .img-text {
+        display: flex;
+        margin-top: 2rem;
+        height: 230px;
+        max-width: 360px;
+        border-radius: 15px;
+    }
 
     /* PAGE CONTATO */
     .form-contato{
