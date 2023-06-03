@@ -54,6 +54,12 @@ body {
         font-size: 4rem;
     }
 
+    .header nav a:active {
+        color: #06004a; 
+        font-weight: bold;
+        background-color: transparent;
+      }
+
     /* PAGE CONTATO */
     .form-contato{
         width: 38vw;
@@ -939,6 +945,11 @@ body {
     .text-header h4{
         padding-top: 1vh;
         font-size: 0.6rem;
+    }
+
+    .carousel {
+        max-width: 100%;
+        width: 85vw;
     }
 
     /* HEADER PAGES INTERNAS */

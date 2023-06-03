@@ -27,5 +27,11 @@
   font-family: 'Montserrat', sans-serif;
   color: #fff;
   padding-left: 2vw;
+  max-width: 500px;
+}
+
+.header nav a:active {
+  color: #06004a; 
+  font-weight: bold;
 }
 
