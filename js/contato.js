@@ -3,14 +3,21 @@ const inputSobrenome = document.querySelector("#idSobrenome");
 const inputEmail = document.querySelector("#idEmail");
 const inputTelefone = document.querySelector("#idTelefone");
 const inputEstado = document.querySelector("#idEstado");
+const inputCidade = document.querySelector("#Cidade");
+const inputCep = document.querySelector("#idCep");
+const inputConheceu = document.querySelector("#idConheceu");
 const inputAssunto = document.querySelector("#idAssunto");
 const inputMensagem = document.querySelector("#idMensagem");
+
 
 const erroNome = document.querySelector("#idErrorNome");
 const erroSobrenome = document.querySelector("#idErrorSobrenome");
 const erroEmail = document.querySelector("#idErrorEmail");
 const erroTelefone = document.querySelector("#iErrordTelefone");
 const erroEstado = document.querySelector("#iErrordEstado");
+const erroCidade = document.querySelector("#idErrorCidade");
+const erroCep = document.querySelector("#idErrorCep");
+const erroConheceu = document.querySelector("#idErrorConheceu");
 const erroAssunto = document.querySelector("#idErrorAssunto");
 const erroMensagem = document.querySelector("#idErrorMensagem");
 
@@ -123,6 +130,88 @@ inputNome.addEventListener("keyup", ()=>{
         }
       }
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  inputCidade.addEventListener("keyup", ()=>{
+    let textoCidade = inputCidade.value;
+    if (textoCidade == "") {
+        erroCidade.setAttribute("style", "visibility: visible; color: red;");
+        erroCidade.textContent = "* Cidade não pode estar vazio!"
+        inputCidade.setAttribute("style", "outline-color: red;");
+      } else{
+        if(textoCidade.length > 25){
+            erroCidade.setAttribute("style", "visibility: visible; color: red;");
+            erroCidade.textContent = "* Escreva o nome da Cidade"  
+            inputCidade.setAttribute("style", "outline-color: red;");
+        }else{
+            erroCidade.textContent = ""
+            erroCidade.setAttribute("style", "visibility: hidden; color: green;");
+            inputCidade.setAttribute("style", "outline-color: green;");
+        }
+      }
+  });
+
+  inputConheceu.addEventListener("keyup", ()=>{
+    let textoConheceu = inputConheceu.value;
+    if (textoConheceu == "") {
+        erroConheceu.setAttribute("style", "visibility: visible; color: red;");
+        erroConheceu.textContent = "* Como Conheceu não pode estar vazio!"
+        inputConheceu.setAttribute("style", "outline-color: red;");
+      } else{
+        if(textoConheceu.length != 2){
+            erroConheceu.setAttribute("style", "visibility: visible; color: red;");
+            erroConheceu.textContent = "* Escreva como nos conheceu"  
+            inputConheceu.setAttribute("style", "outline-color: red;");
+        }else{
+            erroConheceu.textContent = ""
+            erroConheceu.setAttribute("style", "visibility: hidden; color: green;");
+            inputConheceu.setAttribute("style", "outline-color: green;");
+        }
+      }
+  });
+
+  inputEstado.addEventListener("keyup", ()=>{
+    let textoEstado = inputEstado.value;
+    if (textoEstado == "") {
+        erroEstado.setAttribute("style", "visibility: visible; color: red;");
+        erroEstado.textContent = "* O estado não pode estar vazio!"
+        inputEstado.setAttribute("style", "outline-color: red;");
+      } else{
+        if(textoEstado.length != 2){
+            erroEstado.setAttribute("style", "visibility: visible; color: red;");
+            erroEstado.textContent = "* Coloque apenas as siglas do estado"  
+            inputEstado.setAttribute("style", "outline-color: red;");
+        }else{
+            erroEstado.textContent = ""
+            erroEstado.setAttribute("style", "visibility: hidden; color: green;");
+            inputEstado.setAttribute("style", "outline-color: green;");
+        }
+      }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
 
   inputAssunto.addEventListener("keyup", ()=>{
     let textoAssunto = inputAssunto.value;
