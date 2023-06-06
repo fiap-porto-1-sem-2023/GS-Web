@@ -1,5 +1,5 @@
 .conteudo{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
 }
 .banner-header{
     height: 75vh;
@@ -18,7 +18,7 @@
 }
 .text-header{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -38,7 +38,7 @@
 }
 .conteudo h3{
     color: #4B0082;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
 }
 .txt {
     display: flex;
