@@ -1,19 +1,20 @@
 .footer{
     background-color: #8B4513;
     margin-top: 7vh;
+    margin-bottom: -3vh;
 }
 
 .footer nav{
     display: flex;
     justify-content: space-around;
+    margin-top: 4vh;
 }
 
 .footer h4{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding-top: 1vh;
-    font-size: 1.3rem;
-    font-weight: 550;
+    font-size: 2rem;
     color: #fff;
 }
 .footer img{
@@ -23,4 +24,28 @@
     max-height: 1500px;
     width: auto;
     height: auto;
+}
+
+.direitos-footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 2vh;
+    font-size: 1.5rem;
+}
+
+.txt-footer{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.linha-footer{
+    margin-top: 2vh;
+    height: 2px;
+    width: 100%;
+    background: #ffffff;
+    display: inline-flex;
+    justify-content: center;
 }
