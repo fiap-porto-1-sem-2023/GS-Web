@@ -21,7 +21,7 @@
     margin-left: 4vw;
 }
 .text-header-interno{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
     position: relative;
     width: 100%;
 }
@@ -38,7 +38,7 @@
     text-align: justify;
 }
 .subtitulo-pages{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto';
     font-size: 3rem;
     color: #4B0082;
     text-align: left;
