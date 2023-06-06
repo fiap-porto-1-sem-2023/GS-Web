@@ -157,7 +157,7 @@ body {
         width: 50vw;
     }
     .icon-input{
-        margin: 18px 0 0 450px;
+        margin: 18px 0 0 430px;
         max-width: 35px;
         max-height: 35px;
     }
@@ -273,7 +273,7 @@ body {
         width: 50vw;
     }
     .icon-input{
-        margin: 28px 0 0 345px;
+        margin: 18px 0 0 340px;
         max-width: 35px;
         max-height: 20px;
     }
@@ -393,7 +393,6 @@ body {
         height: 50px;
         width: 380px;
         font-size: 1.2rem;
-        margin-top: 2vh;
     }
     .btn-contato{
         font-size: 1.25rem;
@@ -679,7 +678,7 @@ body {
         width: 70vw;
     }
     .icon-input{
-        margin: 10px 0 0 245px;
+        margin: 14px 0 0 245px;
         max-width: 18px;
         max-height: 19px;
     }
