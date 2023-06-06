@@ -59,7 +59,7 @@ body {
         color: #06004a; 
         font-weight: bold;
         background-color: transparent;
-      }
+    }
 
     /* PAGE CONTATO */
     .form-contato{
@@ -86,8 +86,7 @@ body {
     .text-header-interno h1{
         font-size: 2.5rem;
     }
-
-
+    
 }
 
 @media(max-width: 1848px){
@@ -1006,5 +1005,14 @@ body {
     }
     .text-header-interno h1{
         font-size: 0.7rem;
+    }
+}
+
+@media(max-width: 323px){
+    .header img{
+        width: 30.5vw;
+    }
+    .header nav a{
+        font-size: 0.41rem;
     }
 }
