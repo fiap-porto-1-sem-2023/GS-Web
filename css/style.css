@@ -99,21 +99,16 @@ body {
         font-size: 1.7rem;
         padding-left: 4vw;
     }
-    .img-text{
-        margin-top: 10vh;
-    }
     .descricao-interna h3{
         font-size: 2.7rem;
-        padding-top: 0vh;
         text-align: left;
     }
     .subtitulo-pages{
         font-size: 2.7rem;
-        padding-top: 0vh;
         text-align: left;
     }
     .paragrafo{
-        font-size: 1.67rem;
+        font-size: 1.8rem;
     }
     .descricao-interna p{
         font-size: 1.67rem;
@@ -391,7 +386,7 @@ body {
         font-size: 0.9rem;
     }
     .paragrafo{
-        font-size: 0.9rem;
+        font-size: 0.92rem;
     }
     .descricao-interna p{
         font-size: 0.9rem;
@@ -468,10 +463,10 @@ body {
         font-size: 1.05rem;
     }
     .paragrafo{
-        font-size: 0.76rem;
+        font-size: 0.8rem;
     }
     .descricao-interna p{
-        font-size: 0.76rem;
+        font-size: 0.8rem;
     }
     .img-text{
         max-width: 40vw;
